@@ -19,7 +19,7 @@ body{
 }
 
 span{
-    font-size: 5vw;
+    font-size: 8vw;
     letter-spacing: 10px;
     animation: flip 2.6s infinite linear;
     transform-origin: 0 70%;
@@ -54,4 +54,35 @@ span{
 }
 .container>span:nth-child(6){
     animation-delay: 1.5s;
+}
+
+button{
+    background: transparent;
+    color: #ffda9e;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    border: 2px solid #ffda9e;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 40vw;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    background-color: #ffda9e;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-16deg);
+    filter: blur(6px);
+}
+button:hover::before{
+    left: calc(100% + 32px);
+    transition: 0.75s;
 }
