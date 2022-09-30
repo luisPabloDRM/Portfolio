@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { ReactDOM } from 'react';
+import { NavLink } from 'react-router-dom'
+import Principal from '../../Pages/Principal/Principal';
+
 
 import './Homepage.scss'
 
 export const Homepage = () => {
+
+  
+
+  
   return (
     <>
+
     <div className='container'>
         <span>L</span>
         <span>P</span>
@@ -14,9 +23,7 @@ export const Homepage = () => {
 
     </div>
     <div>
-        <button>
-            Mi PortFolio
-        </button>
+        <NavLink to = '/main'><button>Mi PortFolio</button></NavLink>
     </div>
 
 
