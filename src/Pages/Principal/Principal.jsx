@@ -1,12 +1,13 @@
 import React from 'react'
+import {Presentation} from '../../Components/Presentation/Presentation'
 
 const Principal = () => {
   return (
     <>
         
-        <h1>
-            Main Page
-        </h1>
+       <div>
+        <Presentation />
+       </div>
 
     </>
   )

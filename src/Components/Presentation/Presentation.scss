@@ -1,0 +1,29 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.left{ 
+    background: blacksmoke;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.left h1{ color:  black; font-size: 5.9vw;} 
+.left h2{ color: black; font-size: 3.0vw; }
+.left a{ border-radius: 25px; border: 1px solid black; text-decoration: none; padding: 10px 50px; transition: background 1s; color:black}
+.left a:hover{ background: black; color:blue}
+
+
+@media (max-width:900px){
+    .container{
+        grid-template-columns: 3fr 1fr;
+    }
+}
+img{
+    margin-top: 25%;
+    width: 70%;
+    height: auto;
+}
