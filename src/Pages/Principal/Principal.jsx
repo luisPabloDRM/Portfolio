@@ -1,5 +1,6 @@
 import React from 'react'
 import {Presentation} from '../../Components/Presentation/Presentation'
+import {MySelf} from '../../Components/MySelf/MySelf'
 
 const Principal = () => {
   return (
@@ -7,6 +8,10 @@ const Principal = () => {
         
        <div>
         <Presentation />
+       </div>
+       <div>
+        <MySelf/>
+
        </div>
 
     </>

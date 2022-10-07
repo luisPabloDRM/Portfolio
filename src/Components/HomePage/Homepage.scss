@@ -93,6 +93,13 @@ button:hover::before{
         font-size: 10vw;
     }
     button{
-        margin-left: 20%;  
+        margin-left: 5%;  
+        font-size: 18px;
+    }
+}
+@media (max-width: 900px){
+   
+    button{
+        margin-left: 30%;  
     }
 }
