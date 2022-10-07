@@ -87,3 +87,12 @@ button:hover::before{
     left: calc(100% + 32px);
     transition: 0.75s;
 }
+
+@media (max-width: 600px){
+    span{
+        font-size: 20vw;
+    }
+    button{
+        margin-left: 20%;  
+    }
+}
