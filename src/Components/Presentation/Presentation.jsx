@@ -10,7 +10,7 @@ export const Presentation = () => {
             LUIS PABLO<br/> DEL RIO 
         </h1>
         
-        <h2>
+        <h2 className='text'>
             Full Stack Developer
         </h2>
     </div >
