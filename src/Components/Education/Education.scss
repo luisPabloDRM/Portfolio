@@ -1,0 +1,25 @@
+.container_ed {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr ; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". ."
+      ". ."; 
+  }
+
+.img_edu{
+    width: 50%;
+    margin:auto;
+    opacity: 10%;
+}
+.img_edu:hover{
+    opacity: 100%;
+}
+
+.info_ed{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid grey;
+}
