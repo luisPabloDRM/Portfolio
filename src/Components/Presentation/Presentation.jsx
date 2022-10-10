@@ -15,7 +15,7 @@ export const Presentation = () => {
         </h2>
     </div >
     <div className='right'>
-        <img src="https://cdn.discordapp.com/attachments/965645891820212318/1025352268620513301/Snapseed.jpg" alt="Foto LP" />
+        <img src="https://cdn.discordapp.com/attachments/965645891820212318/1029085088589295686/Snapseed-removebg-preview.png" alt="Foto LP" />
     </div>
 
     </div>
