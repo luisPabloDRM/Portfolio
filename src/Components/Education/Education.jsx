@@ -44,7 +44,7 @@ export const Education = () => {
     <div className='container_ed' >
     <div className='info_ed'>
         <h2 className='title' >
-                    
+                First Certificate in English    
         </h2>
         <h3 className='apen' >
             Cambridge
