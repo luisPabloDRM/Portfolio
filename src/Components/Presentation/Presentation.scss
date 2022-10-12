@@ -1,7 +1,10 @@
 .gridContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100vw;
     height: 100vh;
+    margin-bottom: 15%;
+    
 }
 img{
     width: 100%;
@@ -9,6 +12,7 @@ img{
 }
 .right {
     display: flex;
+    
    
     
 }
@@ -36,8 +40,14 @@ img{
     place-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 20%;
 }
-.left h1{ color:  black; font-size: 5.9vw;} 
+.left h1{ 
+        color:  black; 
+        font-size: 5.9vw;
+        margin: 25px;
+
+    } 
 
 
 

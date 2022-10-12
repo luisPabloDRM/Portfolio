@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
 :root{
     --font-style: 'Nunito-Sans' , sans-serif;
@@ -12,6 +12,7 @@ body{
 
 .container {
     display: flex;
+    justify-content: center;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -58,12 +59,12 @@ span{
 
 button{
     background: transparent;
-    color: #ffda9e;
+    color: #745f3d;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     text-transform: uppercase;
     padding: 16px 36px;
-    border: 2px solid #ffda9e;
+    border: 2px solid #745f3d;
     border-radius: 32px;
     transform: translate(0);
     overflow: hidden;
@@ -75,7 +76,7 @@ button{
 button::before {
     content: "";
     position: absolute;
-    background-color: #ffda9e;
+    background-color: #745f3d;
     width: 8px;
     top: 0;
     bottom: 0;

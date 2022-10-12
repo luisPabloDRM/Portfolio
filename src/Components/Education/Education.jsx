@@ -5,6 +5,9 @@ import  './Education.scss'
 export const Education = () => {
   return (
     <>
+    <h1 className='big_title'>
+        Education
+    </h1>
     <div className='container_ed' >
         <div className='info_ed'>
         <h2 className='title' >
