@@ -7,6 +7,14 @@
       ". . ."
       ". . ."; 
 
+      @media only screen and (max-width: 691px) {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "."; 
+        }
 }
 
 .card {
@@ -15,8 +23,8 @@
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow-y: scroll;
-    width: 150px;
-    height: 150px;
+    width: 600px;
+    height:600px;
 
     
     @media only screen and (min-width: 691px) {
