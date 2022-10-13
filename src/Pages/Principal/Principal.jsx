@@ -3,7 +3,7 @@ import {Presentation} from '../../Components/Presentation/Presentation'
 import {MySelf} from '../../Components/MySelf/MySelf'
 import {Education} from '../../Components/Education/Education'
 import Skills from '../../Components/Skills/Skills'
-import ProjectsGallery from '../../Components/Projects/ProjectsGallery'
+import Projects from '../../Components/Projects/Projects'
 
 
 import '../Principal/Principal.scss'
@@ -38,7 +38,7 @@ const Principal = () => {
 
        <div className='div_prin' >
         
-          <ProjectsGallery />
+          <Projects />
         
        </div>
 
