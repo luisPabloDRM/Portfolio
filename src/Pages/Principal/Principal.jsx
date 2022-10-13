@@ -3,11 +3,18 @@ import {Presentation} from '../../Components/Presentation/Presentation'
 import {MySelf} from '../../Components/MySelf/MySelf'
 import {Education} from '../../Components/Education/Education'
 import Skills from '../../Components/Skills/Skills'
+import ProjectsGallery from '../../Components/Projects/ProjectsGallery'
+
+
 import '../Principal/Principal.scss'
 
 
 
+
 const Principal = () => {
+
+
+
   return (
     <>
         
@@ -24,8 +31,15 @@ const Principal = () => {
 
        </div>
        <div className='div_prin' >
-        <Skills/>
+        
+          <Skills />
+        
+       </div>
 
+       <div className='div_prin' >
+        
+          <ProjectsGallery />
+        
        </div>
 
     </>

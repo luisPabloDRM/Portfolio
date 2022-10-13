@@ -1,0 +1,12 @@
+.container_video{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.videoPlayer{
+    
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
