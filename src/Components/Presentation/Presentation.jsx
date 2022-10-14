@@ -11,7 +11,7 @@ export const Presentation = () => {
         </h1>
         
         <h2 className='text'>
-            Full Stack Developer
+            Full Stack  Dev
         </h2>
     </div >
     <div className='right'>

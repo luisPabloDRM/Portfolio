@@ -13,7 +13,7 @@ export const Education = () => {
         <h2 className='title' >
             FullStack Developer
         </h2>
-        <h3 className='apen' >
+        <h3 className='apen_ed' >
             Upgrade-Hub
         </h3>
         <p className='text1' >
@@ -31,7 +31,7 @@ export const Education = () => {
         <h2 className='title' >
             Maestro Educacion primaria
         </h2>
-        <h3 className='apen' >
+        <h3 className='apen_ed' >
             Universidad de Valladolid
         </h3>
         <p className='text1' >
@@ -49,7 +49,7 @@ export const Education = () => {
         <h2 className='title' >
                 First Certificate in English    
         </h2>
-        <h3 className='apen' >
+        <h3 className='apen_ed' >
             Cambridge
         </h3>
         <p className='text1' >
