@@ -11,10 +11,10 @@ const Projects = () => {
         <h1>My Projects</h1>
       <div >
       <div>
-               <div className="container_video">
+               <div  className="container_video">
                  {projects.map((item)=>
 
-                    <div className="card" >
+                    <div key={item.name} className="card" >
                           <ReactPlayer url={item.url } controls width="100%"
         height="33%" />
                         <div className="card-body" >
