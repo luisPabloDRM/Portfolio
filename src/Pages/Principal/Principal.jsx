@@ -4,7 +4,7 @@ import {MySelf} from '../../Components/MySelf/MySelf'
 import {Education} from '../../Components/Education/Education'
 import Skills from '../../Components/Skills/Skills'
 import Projects from '../../Components/Projects/Projects'
-
+import Contact from '../../Components/Contact/Contact'
 
 import '../Principal/Principal.scss'
 
@@ -39,6 +39,11 @@ const Principal = () => {
        <div className='div_prin' >
         
           <Projects />
+        
+       </div>
+       <div className='div_prin' >
+        
+          <Contact />
         
        </div>
 
