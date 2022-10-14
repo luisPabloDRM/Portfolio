@@ -18,7 +18,7 @@ const Projects = () => {
                           <ReactPlayer url={item.url } controls width="100%"
         height="33%" />
                         <div className="card-body" >
-                            <p className="tag">{item.primaryGenreName}</p>
+                            <img className='tag_img' src={item.logo} alt="" />
                             <h3 className='title'>{item.name}</h3>
                             <p className='text2' >{item.description}</p>
                        
