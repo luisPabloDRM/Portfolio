@@ -37,3 +37,9 @@
     text-transform: none;
     
 }
+@media (max-width: 600px){
+  .container_ed{
+    display: flex;
+    flex-direction: column;
+  }
+}
