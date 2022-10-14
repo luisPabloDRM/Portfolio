@@ -14,7 +14,7 @@ img{
 .text1 {
     display: flex;
     font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
+    font-size: 100%;
     letter-spacing: -0.8px;
     word-spacing: 3.6px;
     color: #000000;
@@ -66,6 +66,7 @@ img{
     font-style: normal;
     font-variant: small-caps;
     text-transform: none;
+    margin-left: 15rem;
 }
 
 @media (max-width:900px){
@@ -78,7 +79,7 @@ img{
     .text1{
         align-items: center;
         margin: 10px;
-        font-size: 15px
+      
     }
     
 
@@ -90,7 +91,7 @@ img{
     .text1{
         align-items: center;
         margin: 10px;
-        font-size: 15px
+        
     }
 
  
