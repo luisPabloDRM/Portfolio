@@ -7,14 +7,14 @@
 body{
     font-family: var(--font-style);
     background-color:whitesmoke;
-    color:coral;
+    color:black;
 }
 
 .container {
     display: flex;
     justify-content: center;
     position:absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, - 50%);
 }
@@ -69,8 +69,7 @@ button{
     transform: translate(0);
     overflow: hidden;
     cursor: pointer;
-    margin-top: 500px;
-    margin-left: 40%;
+    margin:auto;
 }
 
 button::before {
@@ -94,13 +93,13 @@ button:hover::before{
         font-size: 10vw;
     }
     button{
-        margin-left: 5%;  
+        margin: auto;  
         font-size: 18px;
     }
 }
 @media (max-width: 900px){
    
     button{
-        margin-left: 30%;  
+        margin:auto;  
     }
 }

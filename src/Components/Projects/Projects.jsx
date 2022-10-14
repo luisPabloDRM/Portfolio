@@ -20,7 +20,7 @@ const Projects = () => {
                         <div className="card-body" >
                             <p className="tag">{item.primaryGenreName}</p>
                             <h3 className='title'>{item.name}</h3>
-                            <p className='text1' >{item.description}</p>
+                            <p className='text2' >{item.description}</p>
                        
                         </div>
 
