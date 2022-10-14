@@ -17,9 +17,10 @@ export const Education = () => {
             Upgrade-Hub
         </h3>
         <p className='text1' >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Odio adipisci reiciendis dolore pariatur modi officia rerum nulla debitis est error aspernatur voluptate sit inventore ab perferendis, 
-            ipsa explicabo natus dolorem!
+        Intensive course of 6 months duration, in which we start from the basics (HTML & CSS) until we reach the final project, a complete App (front and back)
+         passing through Javascript, in the Angular and React front-end and in the Back- end NodeJs and PhP with Sinfony.
+         We study relational and non-relational databases such as MySQL and MongoDB. 
+         Finally we learned about agile methodologies (Agile)
         </p>
         </div>
         
@@ -35,9 +36,10 @@ export const Education = () => {
             Universidad de Valladolid
         </h3>
         <p className='text1' >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Odio adipisci reiciendis dolore pariatur modi officia rerum nulla debitis est error aspernatur voluptate sit inventore ab perferendis, 
-            ipsa explicabo natus dolorem!
+        The Degree in Primary Education Teaching offers you the academic and human 
+        training to be a Teacher in the educational stage from 6 to 12 years, a stage in which the basic knowledge of our culture is acquired, 
+        helping them to understand the world around them through of the observation and study of nature, 
+        artistic expression, music, language, literature, history or the practice of sports.
         </p>
     </div>
 
@@ -53,9 +55,9 @@ export const Education = () => {
             Cambridge
         </h3>
         <p className='text1' >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Odio adipisci reiciendis dolore pariatur modi officia rerum nulla debitis est error aspernatur voluptate sit inventore ab perferendis, 
-            ipsa explicabo natus dolorem!
+        First Certificate in English is one of the English level exams, affiliated with the University of Cambridge, 
+        which is equivalent to level B2 of the Common European Framework of Reference for Languages. 
+        Its approval proves the ability to speak the English language efficiently in society.
 
         </p>
     </div>

@@ -5,6 +5,9 @@ const Skills = () => {
     
   return (
     <> 
+    
+
+    
     <h1>SKills</h1>
    
    <div className='skill_bars' >
