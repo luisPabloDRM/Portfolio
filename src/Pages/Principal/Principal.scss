@@ -2,8 +2,12 @@
 
 .div_prin{
     display: inline-block;
-    
     margin-bottom: 5%;
     width: 100%;
+    
+    
+    scroll-snap-type: y mandatory ;
+    scroll-snap-align: center;
+    overflow-y: hidden;
     
 }

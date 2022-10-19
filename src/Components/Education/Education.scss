@@ -8,7 +8,9 @@
       ". ."
       ". ."
       ". ."; 
-     
+    scroll-snap-align: center;
+    overflow-y: hidden;
+      
   }
 
 .img_edu{
@@ -27,7 +29,7 @@
 }
 
 .apen_ed{
-    font-family: Impact, Charcoal, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 24px;
     letter-spacing: -1,5px;
     word-spacing: 2px;

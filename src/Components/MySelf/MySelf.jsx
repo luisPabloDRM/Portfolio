@@ -4,7 +4,7 @@ import './MySelf.scss'
 export const MySelf = () => {
   return (
     <>
-    <h1  className='big_title' >About me</h1>
+    <h1  className='big_title' >About Me</h1>
     <div className='gridContainer_1'>
 <div  >
         <img src="https://cdn.discordapp.com/attachments/965645891820212318/1029070976522133574/Captura_de_Pantalla_2022-10-10_a_las_18.40.13.png" alt="about me" />
