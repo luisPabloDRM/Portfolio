@@ -17,9 +17,10 @@ const Contact = () => {
         <h3>Luis Pablo  Dev</h3>
         <p>This is a portfolio that is made with the same measure of illusion, motivation, humility and desire to continue learning..</p>
         <ul className="socials">
-            <li><a href='lp.delriom@gmail.com'><FontAwesomeIcon icon={faEnvelope} /></a></li>
+            <li><a href='mailto:lp.delriom@gmail.com'><FontAwesomeIcon icon={faEnvelope} /></a></li>
             <li><a href='https://github.com/luisPabloDRM' ><FontAwesomeIcon icon={faGithub} /></a></li>
             <li><a href='https://www.linkedin.com/in/lpdrm/'><FontAwesomeIcon icon={faLinkedin} /></a></li>
+            <li><p href="tel:685-148-169"><FontAwesomeIcon icon={faMobile} /> 685148169</p></li>
             
         </ul>
     </div>
