@@ -170,10 +170,19 @@ h1{
         text-shadow: 3px 4px black;
     }
     .skill-bars{
-        padding: 10px 10px;
+        padding: 15px 20px;
         width: 400px;
         background: #fff;
         box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-        border-radius: 8px;
+        border-radius: 10px;
     }
-}
+        // padding: 10px 10px;
+        // width: 300px;
+        // background: #fff;
+        // box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+        // border-radius: 8px;
+    }
+    .bar{
+        width: 100%;
+    }
+
