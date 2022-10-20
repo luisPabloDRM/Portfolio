@@ -11,7 +11,7 @@ export const Homepage = () => {
 
   
   return (
-    <>
+    <div className='container_home'>
 
     <div className='container'>
         <span>L</span>
@@ -27,11 +27,11 @@ export const Homepage = () => {
 
     </div>
     <div >
-        <NavLink to = '/main'><button className='click'>Click to know me</button></NavLink>
+        <NavLink to = '/main'><button >Click to know me</button></NavLink>
     </div>
 
 
-    </>
+    </div>
     
   )
 }
