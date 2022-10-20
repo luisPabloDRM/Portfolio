@@ -16,7 +16,7 @@ export const MySelf = () => {
         </h1>
         <p className='text1'>
         I'm a full stack developer frontend oriented, from Valladolid (Spain).
-        I have been studying the diferents languages and frameworks during the last year. 
+        I have been studying the differents languages and frameworks during the last year. 
         
         </p>
         <p className='text1' >
