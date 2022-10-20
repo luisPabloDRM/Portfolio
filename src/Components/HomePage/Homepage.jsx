@@ -26,8 +26,8 @@ export const Homepage = () => {
         <span>O</span>
 
     </div>
-    <div>
-        <NavLink to = '/main'><button>Click to know me</button></NavLink>
+    <div >
+        <NavLink to = '/main'><button className='click'>Click to know me</button></NavLink>
     </div>
 
 

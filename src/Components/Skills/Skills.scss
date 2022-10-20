@@ -10,9 +10,9 @@
 
 html,body{
  
-//     display: grid; 
-height: 100%;
-//     place-items: center;
+
+    height: 100%;
+  place-items: center;
   background-color: whitesmoke;
  }
 
@@ -31,9 +31,10 @@ h1{
 
 
 .skill_bars{
-    
+    display: flex;
+    flex-direction: column;
     padding: 25px 30px;
-    width: 900px;
+    width: 100%;
     background: whitesmoke;
     box-shadow: 5px 5px 20px rgb(62, 57, 57);
     border-radius: 10px;
@@ -152,7 +153,7 @@ h1{
         color: #fff;
         text-shadow: 3px 4px black;
     }
-    .skill-bars{
+    .skill_bars{
         padding: 15px 20px;
         width: 600px;
         background: #fff;
@@ -163,26 +164,37 @@ h1{
 
 /*For mobile */
 @media screen and (max-widht:600px){
+   
     h1{
         font-size: 2rem;
         text-align: center;
         color: #fff;
         text-shadow: 3px 4px black;
     }
-    .skill-bars{
+    .skill_bars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 49px;
+        grid-row-gap: 0px;
         padding: 15px 20px;
-        width: 400px;
         background: #fff;
         box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
         border-radius: 10px;
     }
-        // padding: 10px 10px;
-        // width: 300px;
-        // background: #fff;
-        // box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-        // border-radius: 8px;
-    }
+  
     .bar{
-        width: 100%;
+        width: 300px;
+    }
+    .bar 
+
+    .progress-line{
+        width: 300px;
     }
 
+    .img_skills{
+        width: 50px;
+    
+    }
+
+   }
